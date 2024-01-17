@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HODU</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <article class ="layout">
+            <!-- Intro Section -->
+            <section class="intro">
+                <nav>
+                    <div id="logo">
+                        <img src="Logo-fin.svg" alt="로고">
+                    </div>
+                    <div id="menu">
+                        <a href="#home">Home</a></li>
+                        <a href="#about">About</a></li>
+                        <a href="#support">Support</a></li>
+                        <button class="btn-download" type="button">Download</button>
+                    </div>
+                </nav>
+
+                <!-- Intro Section::Article -->
+                <article>
+                    <section id="intro-content-detail">
+                        <p>Lorem Ipsum is simply<br>
+                            dummy text of the printing and
+                        </p><br><br>
+                        <p>Lorem Ipsum is simply dummy text of the printing and<br>
+                            typesetting industry.<br>
+                            Lorem Ipsum has been the industry's standard dummy text<br>
+                            ever since the 1500s, when an unknown<br>
+                        </p><br><br>
+                        <button id="btn-download" type="button">Download</button>
+                    </section>
+                    <section>
+                        <img src="img_cat_png.png" alt="봉투 쓴 고양이" id="img-cat-bag">
+                    </section>
+                </article>
+            </section>
+
+
+            <!-- Main Section-->
+            <section class="main">
+                <article class="flex-container">
+                    <img src="img_4.png" alt="누워있는 고양이" id="img-cat-lay">
+
+                    <section id="main-content-detail">
+                        <p>Lorem Ipsum is simply<br>
+                            dummy text of the printing<br>
+                            and dummy text
+                        </p><br>
+                        <p>Lorem Ipsum is simply dummy text of the printing and<br>
+                            typesetting industry.<br>
+                        </p>
+                    </section>
+                </article>
+
+                <section id="main-content-title">
+                    <p>dummy text of the printing and dummy</p><br><br>
+                    <p>Lorem Ipsum is simply <strong>dummy text</strong> of the printing and typesetting industry.<br>
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    </p>
+                </section>
+
+                <section class="img-container">
+                    <div class="img-wrap">
+                        <img src="img1.png" alt="고양이1">
+                        <img src="img2.png" alt="고양이2">
+                        <img src="img3.png" alt="고양이3">
+                    </div>
+
+                    <div class="img-wrap">
+                        <img src="img4.png" alt="고양이4">
+                        <img src="img5.png" alt="고양이5">
+                        <img src="img6.png" alt="고양이6">
+                    </div>
+                </section>
+                <section class="explore">
+                    <p>Continue exploring HODU</p><br><br>
+                    <button class="btn-showmore" type="button">Show more</button>
+                </section>
+                <hr>
+
+                <section class="map-section">
+                    <p>Where you'll be</p><br>
+                    <p>330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>
+
+                    <!-- 지도를 표시할 div -->
+                    <div id="map"></div>
+                </section>
+            </section>
+
+            <section class="subscribe-container">
+                <section class="img-and-arrow">
+                    <div class="img-blur">
+                        <img src="lookdown.png" alt="흐릿한 고양이">
+                    </div>
+                    <div class="arrow-up">
+                        <a href="#"><img src="keyboard_arrow_up.svg" alt="상단이동" id="arrow"></a>
+                    </div>
+                    <div class="arrow-up">
+                        <a href="#"><img src="keyboard_arrow_up%20(1).svg" alt="상단이동" id="arrow-hover"></a>
+                    </div>
+                </section>
+
+                <section class="subscribe">
+                    <div class="contents">
+                        <p>Subscribe to our Blog Post</p><br>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                            Lorem Ipsum has been the industry's standard dummy text </p>
+                    </div>
+
+                    <section class="email-box">
+                        <img src="mail.svg" alt="메일">
+                        <p>Enter your e-mail address</p>
+                        <button id="btn-subscribe" type="button">Subscribe</button>
+                    </section>
+                </section>
+            </section>
+
+
+            <footer>
+                <nav class="bottomnav">
+                    <div class="navbar-logo">
+                        <a href="#"><img src="Logo-fin.svg" alt="로고"></a>
+                    </div>
+
+                    <div class="sns-container">
+                        <div class="sns">
+                            <a href="#"><img src="blog.png" alt="블로그"></a>
+                        </div>
+                        <div class="sns">
+                            <a href="#"><img src="instagram.png" alt="인스타그램"></a>
+                        </div>
+                        <div class="sns">
+                            <a href="#"><img src="facebook.png" alt="페이스북"></a>
+                        </div>
+                        <div class="sns">
+                            <a href="#"><img src="youtube.png" alt="유튜브"></a>
+                        </div>
+                    </div>
+                </nav>
+            </footer>
+        </article>
+
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=da08f2c6ddafc1d5efbbae45bcfd2805"></script>
+        <script>
+            var mapContainer = document.getElementById('map'), // 지도를 표시할 div
+                mapOption = {
+                    center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
+                    level: 3 // 지도의 확대 레벨
+                };
+
+            // 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
+            var map = new kakao.maps.Map(mapContainer, mapOption);
+        </script>
+    </body>
+</html>
