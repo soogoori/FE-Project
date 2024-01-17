@@ -5,12 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="387e7fbb-60ac-4030-9ce7-6550f3e39fcd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyboard_arrow_up (1).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logo-fin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_cat_png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboard_arrow_up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboard_arrow_up_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lookdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/고양이 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shy_cat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youtube.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +65,21 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="HTML" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="HTML" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,6 +92,7 @@
       <workItem from="1705302649172" duration="64000" />
       <workItem from="1705302730480" duration="15291000" />
       <workItem from="1705363387871" duration="48612000" />
+      <workItem from="1705484067336" duration="154000" />
     </task>
     <servers />
   </component>
