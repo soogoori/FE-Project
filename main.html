@@ -7,6 +7,7 @@
     </head>
     <body>
         <article class ="layout">
+
             <!-- Intro Section -->
             <section class="intro">
                 <nav>
@@ -41,7 +42,7 @@
             </section>
 
 
-            <!-- Main Section-->
+            <!-- Main Section -->
             <section class="main">
                 <article class="flex-container">
                     <img src="img/img_4.png" alt="누워있는 고양이" id="img-cat-lay">
@@ -64,6 +65,7 @@
                     </p>
                 </section>
 
+                <!-- Main Section::ImgLoader -->
                 <section class="img-container">
                     <div class="img-wrap">
                         <img src="img/img1.png" alt="고양이1">
@@ -83,15 +85,16 @@
                 </section>
                 <hr>
 
+                <!-- Main Section::Map-->
                 <section class="map-section">
                     <p>Where you'll be</p><br>
                     <p>330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>
 
-                    <!-- 지도를 표시할 div -->
                     <div id="map"></div>
                 </section>
             </section>
 
+            <!-- Subscribe Section-->
             <section class="subscribe-container">
                 <section class="img-and-arrow">
                     <div class="img-blur">
@@ -117,16 +120,27 @@
                         <p>Enter your e-mail address</p>
                         <button id="btn-subscribe" type="button">Subscribe</button>
                     </section>
+
+                    <!-- Subscribe Section::Modal -->
+                    <section class="modal hidden">
+                        <div class="modal-wrap">
+                            <!--<img src="img/sprinkle.png" alt="모달 배경이미지">-->
+                            <img src="img/shy_cat.png" alt="부끄러워하는 고양이" id="shy-cat">
+                            <p>Thank you!</p><br>
+                            <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
+                            <button class="btn-ok">OK! I Love HODU</button>
+                        </div>
+                    </section>
                 </section>
             </section>
+            <script src="hodu_modal.js"></script>
 
-
+            <!-- Footer Section -->
             <footer>
                 <nav class="bottomnav">
                     <div class="navbar-logo">
                         <a href="#"><img src="img/Logo-fin.svg" alt="로고"></a>
                     </div>
-
                     <div class="sns-container">
                         <div class="sns">
                             <a href="#"><img src="img/blog.png" alt="블로그"></a>
@@ -155,6 +169,14 @@
 
             // 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
             var map = new kakao.maps.Map(mapContainer, mapOption);
+            // 마커가 표시될 위치를 선정함.
+            var markerPosition  = new kakao.maps.LatLng(33.4423379727783, 126.571449734542);
+            // 마커를 생성함.
+            var marker = new kakao.maps.Marker({
+                position: markerPosition
+            });
+            // 마커가 지도 위에 표시되도록 설정함.
+            marker.setMap(map);
         </script>
     </body>
 </html>

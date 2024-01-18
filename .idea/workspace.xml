@@ -6,25 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="387e7fbb-60ac-4030-9ce7-6550f3e39fcd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logo-fin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_cat_png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyboard_arrow_up.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyboard_arrow_up_hover.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lookdown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shy_cat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtube.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +17,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -92,7 +74,8 @@
       <workItem from="1705302649172" duration="64000" />
       <workItem from="1705302730480" duration="15291000" />
       <workItem from="1705363387871" duration="48612000" />
-      <workItem from="1705484067336" duration="154000" />
+      <workItem from="1705484067336" duration="757000" />
+      <workItem from="1705536539743" duration="6948000" />
     </task>
     <servers />
   </component>
