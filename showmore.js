@@ -1,5 +1,4 @@
 const imageList = document.querySelector(".img-container");
-const showMore = document.querySelectorAll(".img-wrap");
 const showMoreBtn = document.querySelector(".btn-showmore");
 let pageToFetch = 1;
 
@@ -42,12 +41,16 @@ function makeImageList(datas){
             "<img src="+ datas[i+2].download_url +" alt=''></div>";
     }
 }
+
 function showMoreImgs() {
+    window.addEventListener('scroll', throttling(infinityScroll, 2000));
+
+    let showMore = document.querySelectorAll(".img-wrap");
+    
     for (var i = 2; i < showMore.length; i++) {
         console.log("length: " + showMore.length);
         showMore[i].style.display="flex";
     }
-    window.addEventListener('scroll', throttling(infinityScroll, 2000));
 }
 showMoreBtn.addEventListener('click', showMoreImgs);
 
