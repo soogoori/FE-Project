@@ -75,7 +75,7 @@
       <workItem from="1705302730480" duration="15291000" />
       <workItem from="1705363387871" duration="48612000" />
       <workItem from="1705484067336" duration="757000" />
-      <workItem from="1705536539743" duration="8848000" />
+      <workItem from="1705536539743" duration="22529000" />
     </task>
     <servers />
   </component>
@@ -92,5 +92,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hodu_modal.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
