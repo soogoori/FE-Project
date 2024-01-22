@@ -54,8 +54,6 @@ function showMoreImgs() {
 }
 showMoreBtn.addEventListener('click', showMoreImgs);
 
-
-
 // 무한 스크롤
 function infinityScroll() {
 
@@ -68,7 +66,6 @@ function infinityScroll() {
     }
 }
 fetchImages();
-
 
 // 상단으로 올라가는 버튼
 const goUpBtn = document.querySelector("#arrow-hover");
