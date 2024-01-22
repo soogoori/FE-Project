@@ -4,7 +4,11 @@
     margin:0;
 }
 
-html, body{height: 100%;}
+html, body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 ul{list-style: none;}
 a{text-decoration: none;}
@@ -20,7 +24,6 @@ nav{
     padding-left: 320px;
     padding-right: 320px;
     position: relative;
-    width:1920px;
     margin-left:auto;
     margin-right:auto;
     height: 900px;
@@ -97,7 +100,6 @@ button:hover{
     padding-left: 320px;
     padding-right: 320px;
     position: relative;
-    width: 1920px;
     margin-left:auto;
     margin-right:auto;
 }
@@ -202,7 +204,6 @@ hr{
 .subscribe-container{
     margin-left:auto;
     margin-right:auto;
-    width: 1920px;
     height: 441px;
 }
 
@@ -361,14 +362,12 @@ footer{
     height: 160px;
     left: 0;
     bottom: 0;
-    width: 1920px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .bottomnav{
     height: 160px;
-    width: 1920px;
 }
 
 footer .navbar-logo{
