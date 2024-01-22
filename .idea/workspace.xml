@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="387e7fbb-60ac-4030-9ce7-6550f3e39fcd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kakaoMap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/showmore.js" beforeDir="false" afterPath="$PROJECT_DIR$/scroll.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
       <workItem from="1705484067336" duration="757000" />
       <workItem from="1705536539743" duration="26835000" />
       <workItem from="1705648273148" duration="2821000" />
-      <workItem from="1705883621071" duration="3917000" />
+      <workItem from="1705883621071" duration="4222000" />
     </task>
     <servers />
   </component>
