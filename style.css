@@ -13,18 +13,16 @@ nav{
     height: 102px;
 }
 
-.layout{
-    height: 4319px;
-}
 
 /* Intro Section */
-
 .intro{
     background-color: #F2E9D8;
     padding-left: 320px;
     padding-right: 320px;
     position: relative;
-    width: 1920px;
+    width:1920px;
+    margin-left:auto;
+    margin-right:auto;
     height: 900px;
 }
 
@@ -100,6 +98,8 @@ button:hover{
     padding-right: 320px;
     position: relative;
     width: 1920px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .flex-container{
@@ -176,6 +176,7 @@ button:hover{
 .explore p{
     font-size: 24px;
     font-weight: 700;
+    width: 290px;
 }
 
 hr{
@@ -199,6 +200,8 @@ hr{
 }
 
 .subscribe-container{
+    margin-left:auto;
+    margin-right:auto;
     width: 1920px;
     height: 441px;
 }
@@ -232,6 +235,7 @@ hr{
 }
 
 #arrow-hover:hover{
+    cursor: pointer;
     opacity: 1;
     transition: opacity 0.3s ease;
 }
@@ -358,6 +362,8 @@ footer{
     left: 0;
     bottom: 0;
     width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bottomnav{

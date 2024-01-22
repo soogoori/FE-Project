@@ -46,7 +46,7 @@ function showMoreImgs() {
     window.addEventListener('scroll', throttling(infinityScroll, 2000));
 
     let showMore = document.querySelectorAll(".img-wrap");
-    
+
     for (var i = 2; i < showMore.length; i++) {
         console.log("length: " + showMore.length);
         showMore[i].style.display="flex";
@@ -63,7 +63,7 @@ function infinityScroll() {
     // 화면에 로딩된 페이지의 전체 높이 === 뷰포트 높이 + 스크롤된 길이 + 5~10px(매끄럽게 하기 위해서)
 
     if(window.innerHeight + document.documentElement.scrollTop + 10 >=
-        document.documentElement.offsetHeight){
+        document.documentElement.offsetHeight && pageToFetch<6){
         fetchImages(pageToFetch++);
     }
 }
