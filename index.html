@@ -161,21 +161,7 @@
         </article>
 
         <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=da08f2c6ddafc1d5efbbae45bcfd2805"></script>
-        <script>
-            var mapContainer = document.getElementById('map'),
-                mapOption = {
-                    center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도 중심좌표
-                    level: 3
-                };
-
-            var map = new kakao.maps.Map(mapContainer, mapOption);
-            var markerPosition  = new kakao.maps.LatLng(33.4423379727783, 126.571449734542);
-            var marker = new kakao.maps.Marker({
-                position: markerPosition
-            });
-            marker.setMap(map);
-        </script>
-
+        <script type="text/javascript" src="kakaoMap.js"></script>
         <script src="hodu_modal.js"></script>
         <script src="showmore.js"></script>
 
